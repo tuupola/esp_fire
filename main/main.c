@@ -124,10 +124,10 @@ void fire_task(void *params)
 
         /* Fine sire scroller. */
         if (0 == demo % 3) {
-            fire_putstring(" IS IT 90'S AGAIN?      HELLO M5STACK!      THANKS LODE...", sx, FIRE_HEIGHT / 2, font8x8);
+            fire_putstring(" IS IT 90'S AGAIN?      HELLO INTTERWEBS!      THANKS LODE...", sx, FIRE_HEIGHT / 2, font8x8);
 
             sx = sx - 2;
-            if (sx < -440) {
+            if (sx < -560) {
                 sx = FIRE_WIDTH - 8;
             }
 
